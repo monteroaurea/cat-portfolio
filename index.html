@@ -1,126 +1,152 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
+
 <head>
-	<title>My portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--CSS-->
+	<link rel="stylesheet" href="./style.css">
+	<!--Flaticon-->
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+	<!--Google Fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600&family=Satisfy&display=swap"
+		rel="stylesheet">
+
+	<title>Aurea's Portfolio</title>
+
 </head>
+
 <body>
-
-<nav>
-	<div class="nav-name">Aurea Montero</div>
-		<a href="#portfolio">Portfolio</a>
-		<a href="#about">About</a>
-		<a href="#contact">Contact</a>
-</nav>
-
-	<div class="header" id="header">
-	<section>
-	<header>
-		<h1>Hey There! I am Aurea</h1>
-		<h2>I am a Software Developer</h2>
-			<p>I can help you by building a product, feature or website.<br>
-			You can take a look on some projects I have done. <br>
-			</p>
-	</header>
-</section>
-
-<div class="portfolio" id="portfolio">
-
-<section>	
-		<h1>My Recent Works</h1>
-		<hr>
-
-<div class="project1">
-	<h2>Multi-Post Stories</h2>
-	<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-	<button type="button">See Project</button>
-</div>
-<div class="project2">
-	<h2>Multi-Post Stories</h2>
-	<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-</div>
-<div class="project3">
-	<h2>Multi-Post Stories</h2>
-	<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-</div>
-<div class="project4">
-	<h2>Multi-Post Stories</h2>
-	<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-</div>
-<div class="project5">
-	<h2>Multi-Post Stories</h2>
-	<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-</div>
-<div class="project6">
-	<h2>Multi-Post Stories</h2>
-	<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-</div>
-<div class="project7">
-	<h2>Multi-Post Stories</h2>
-	<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-</div>
-</section>
-</div>
-<hr>
-<div class="about" id="about">
-<section>
-<header>
-	<h1>About Me</h1>
-	<p>Hello I am a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-	<button type="button">Get My Resume</button>
-</header>
-</section>
-</div>
-<hr>
-	<div class="skillset">
-		<section>
-	<ul>	
-		Languages
-		<li>Javascript</li>
-		<li>Java</li>
-		<li>Csharp</li>
-		<li>My Sql</li>
-		<li>Html</li>
-		<li>Css</li>
-	</ul>
-	<ul>
-		Frameworks
-		<li>Bootstrap</li>
-		<li>React</li>
-		<li>Spring</li>
-		<li>.NET</li>
-	</ul>
-	<ul>
-		Skills
-		<li>POO</li>
-		<li>Git</li>
-		<li>Github</li>
-		<li>SQL</li>
-		<li>Banco de Dados</li>
-	</ul>
-	<hr>
-	</div>
-</section>
-
-<div class="contact" id="contact">
-	<section>
-		<h2>Let's get in touch!</h2>
-	<form>
-		<ul>
-			<li>
-				Full name:<br><input type="text" name="name"></li>
-			<li>
-				Email adress:<br><input type="text" name="email"></li>
-			<li>
-				Enter text:<br><textarea id="text-area" name="text-area" rows="5" cols="33"></textarea></li><br>
-			<input type="submit" value="Send!">
+	<header class="dflex">
+		<h3 class="logo">Aurea Montero</h3>
+		<ul class="nav-list dflex">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#contact">Contact</a></li>
 		</ul>
-	</form> 
+	</header>
+	<section class="intro dflex" id="home">
+		<div class="cat-header dflex">
+			<img src="png-img/cat2.png">
+		</div>
+		<div class="intro-content">
+			<h2 class="hey">Hey There!</h2>
+			<h1>I am Aurea </h1>
+			<div class="cat-intro dflex">
+				<img src="png-img/cat4.png">
+			</div>
+			<h3>I am a Software Developer</h3>
+			<p>I can help you to build your project, feature or website.
+				You can take a look at some of the projects I have done and if you like, you are welcome to contact me. </p>
+			<div class="social-icons">
+				<a class="icon" href="https://github.com/monteroaurea"><i class="fi fi-brands-github"></i></a>
+				<a class="icon" href="https://www.linkedin.com/in/monteroaurea/"><i class="fi fi-brands-linkedin"></i></a>
+				<a class="icon" href="https://twitter.com/aureamontt1"><i class="fi fi-brands-twitter"></i></a>
+				<a class="icon" href="https://www.instagram.com/aureamontt/"><i class="fi fi-brands-instagram"></i></a>
+			</div>
+		</div>
 	</section>
-</div>
-<hr>
 
-	<footer>
-		<a href="#header">Back to top</a>
-	</footer>
+	<section class="portfolio" id="portfolio">
+		<div class="section-title dflex">
+			<h2>My Recent Works</h2>
+			<hr>
+		</div>
+		<div class="project dflex">
+			<div>
+				<img class="project-img1" src="png-img/Img_Placeholder_1.png">
+			</div>
+			<div class="project-content dflex">
+				<h3>Multi-Post Stories</h3>
+				<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+					industry's
+					standard
+					dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+				<ul class="project-techs dflex">
+					<li>CSS</li>
+					<li>html</li>
+					<li>bootsrap</li>
+					<li>Ruby</li>
+				</ul>
+				<div class="button1 dflex">
+					<button class="button" type="button">See Project</button>
+				</div>
+			</div>
+		</div>
+		<br>
+		<section class="about-section dflex" id="about">
+			<div>
+				<h2>About Me</h2>
+			</div>
+			<div class="about-text">
+				<p> Hello! My name is Aurea. I am a software developer, I am dedicated to Front-end projects and I can help you
+					to build a product , feature or website. Take a look into some of the projects I have created. If you have any
+					project, idea or anything else you would like to discuss, feel free to contact me.
+				</p>
+				<div class="button1">
+					<button class="button" type="button">Get My Resume</button>
+					<hr class="hr">
+				</div>
+			</div>
+		</section>
+		<ul class="skillset dflex">
+			<div class="skill-languages">
+				<li class="languages">Languages</li><br>
+				<li class="skill-item">Javascript</li><br>
+				<li class="skill-item">Java</li><br>
+				<li class="skill-item">Csharp</li><br>
+				<li class="skill-item">My Sql</li><br>
+				<li class="skill-item">Html</li><br>
+				<li class="skill-item">Css</li><br>
+			</div>
+			<div class="skill-frameworks">
+				<li class="frameworks"> Frameworks</li><br>
+				<li class="skill-item">Bootstrap</li><br>
+				<li class="skill-item">React</li><br>
+				<li class="skill-item">Spring</li><br>
+				<li class="skill-item">.NET</li><br>
+			</div>
+			<div class="skill-skills">
+				<li class="skills"> Skills</li><br>
+				<li class="skill-item">POO</li><br>
+				<li class="skill-item">Git</li><br>
+				<li class="skill-item">Github</li><br>
+				<li class="skill-item">SQL</li><br>
+				<li class="skill-item">Banco de Dados</li><br>
+			</div>
+		</ul>
+		<form id="contact" class="form dflex" action="https://formspree.io/f/mqknezdy" method="POST">
+			<h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+			<ul class="contact-form dflex">
+				<li>
+					<label for="name"></label>
+					<input type="text" id="name" name="user_name" placeholder="Full name" maxlength="30" required>
+				</li><br>
+				<li id="form-control" class="form-control">
+					<label for="email"></label>
+					<input class="email-input" id="email" name="user_email" placeholder="Email address">
+				</li><br>
+				<li>
+					<label for="message"></label>
+					<textarea id="message" name="user_message" placeholder="Enter text here" maxlength="500" required></textarea>
+				</li><br>
+			</ul>
+			<button class="button button1" type="submit">Get in touch</button>
+		</form>
+		<hr>
+		<footer>
+			<div class="social-icons">
+				<a class="icon" href="https://github.com/monteroaurea"><i class="fi fi-brands-github"></i></a>
+				<a class="icon" href="https://www.linkedin.com/in/monteroaurea/"><i class="fi fi-brands-linkedin"></i></a>
+				<a class="icon" href="https://twitter.com/aureamontt1"><i class="fi fi-brands-twitter"></i></a>
+				<a class="icon" href="https://www.instagram.com/aureamontt/"><i class="fi fi-brands-instagram"></i></a>
+			</div>
+		</footer>
 </body>
+
 </html>
